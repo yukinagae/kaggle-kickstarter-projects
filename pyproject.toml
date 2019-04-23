@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "kaggle-kickstarter-projects"
+version = "0.1.0"
+description = ""
+authors = ["Yuki Nagae <yuki.nagae1130@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+jupyter = "^1.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
