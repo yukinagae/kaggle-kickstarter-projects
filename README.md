@@ -12,7 +12,13 @@
 
 ## Description
 
-TODO: not yet written
+[Kickstarter](https://www.kickstarter.com) is the world's largest funding platform for creative projects. 16 million people have backed a project, $4.2 billion has been pledged, and 161,886 projects have been funded since its launch from 2009.
+
+In this repository, I will dive into the Kickstarter dataset, analyse it to answer the below three questions:
+
+1. Are funding and projects increasing?
+2. What factors may be correlated with success/failure of projects?
+3. How to make your project successful?
 
 ## Summary
 
@@ -22,7 +28,7 @@ TODO: not yet written
 
 ## TODOs
 
-- [ ] Three Questions: related to business or real-world applications of how the data could be used
+- [x] Three Questions: related to business or real-world applications of how the data could be used
 - [ ] Jupyter Notebook
   - [ ] Follow CRISP-DM process
   - [ ] Prepare Data
