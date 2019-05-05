@@ -4,7 +4,7 @@
 
 - [Description](#description)
 - [Summary](#summary)
-- [TODOs](#todos)
+- [TODO](#todo)
 - [Dependencies](#dependencies)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -16,26 +16,28 @@
 
 In this repository, I will dive into the Kickstarter dataset, analyse it to answer the below three questions:
 
-1. Are funding and projects increasing?
-2. What factors may be correlated with success/failure of projects?
-3. How to make your project successful?
+1. Is the number of projects increasing?
+2. What factors may be correlated with the success/failure of the projects?
+3. How to make your technology project successful? (Because I'm a tech person.)
 
 ## Summary
 
-TODO: not yet written
+1. The number of projects has been decreasing after 2015, but the total amount of pledge has been increasing.
+2. A category of the projects is one of the keys factors associated with the success/failure of the projects. Dance, Theatre and Comics are the top three successful categories.
+3. Hardware and gadgets for your technology project to increase the success ratio.
 
 ---
 
-## TODOs
+## TODO
 
 - [x] Three Questions: related to business or real-world applications of how the data could be used
-- [ ] Jupyter Notebook
-  - [ ] Follow CRISP-DM process
-  - [ ] Prepare Data
-    - [ ] Handle categorical/missing values etc
-  - [ ] Analyze, Model, and Visualize
-- [ ] Create a GitHub Repository
-- [ ] Create a blog post for a non-technical audience
+- [x] Jupyter Notebook
+  - [x] Follow CRISP-DM process
+  - [x] Prepare Data
+    - [x] Handle categorical/missing values etc
+  - [x] Analyze, Model, and Visualize
+- [x] Create a GitHub Repository
+- [x] Create a blog post for a non-technical audience
 
 ## Dependencies
 
@@ -63,7 +65,6 @@ poetry run jupyter notebook
 ├── README.md
 ├── eda.ipynb <- EDA result shown as Jupyter Notebook
 ├── input <- contains Kickstarter Projects dataset
-│   ├── ks-projects-201612.csv
 │   └── ks-projects-201801.csv
 └── pyproject.toml <- config file contains the project information and package dependencies etc.
 ```
